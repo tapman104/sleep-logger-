@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/sleep_primary"
+        android:pathData="M54,20c-19.88,0 -36,16.12 -36,36s16.12,36 36,36s36,-16.12 36,-36S73.88,20 54,20zM54,82c-14.36,0 -26,-11.64 -26,-26s11.64,-26 26,-26s26,11.64 26,26S68.36,82 54,82z"/>
+    <path
+        android:fillColor="@color/sleep_primary"
+        android:pathData="M54,38c-9.94,0 -18,8.06 -18,18s8.06,18 18,18s18,-8.06 18,-18S63.94,38 54,38zM54,68c-6.63,0 -12,-5.37 -12,-12s5.37,-12 12,-12s12,5.37 12,12S60.63,68 54,68z"/>
+    <path
+        android:fillColor="@color/sleep_primary"
+        android:pathData="M48,48h12v12h-12z"/>
+</vector>

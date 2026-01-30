@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sleep Logger</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="bulk_input">Bulk Input</string>
+    <string name="date">Date</string>
+    <string name="sleep_time">Sleep Time</string>
+    <string name="fall_asleep_duration">Time to Fall Asleep</string>
+    <string name="wake_time">Wake Time</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="total_sleep">Total Sleep</string>
+    <string name="no_entries">No sleep entries yet. Tap + to add your first entry!</string>
+    <string name="bulk_input_hint">Enter multiple entries in format:\ndate-----sleep_time+min-------wake_time\n\nExample:\n8-1-26-----11:39pm+30min-------6:45am</string>
+    <string name="invalid_format">Invalid format. Please use: date-----time+Xmin-------time</string>
+    <string name="entry_saved">Entry saved successfully</string>
+    <string name="entries_saved">%d entries saved</string>
+    <string name="entry_deleted">Entry deleted</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16.dp"
+    android:background="@drawable/widget_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weekly Summary"
+        android:textColor="#BB86FC"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textAllCaps="true" />
+
+    <Spacer
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:id="@+id/widget_summary_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--h --m"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_summary_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latest logged"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+        <View android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:background="#33BB86FC" android:layout_marginEnd="2dp" />
+        <View android:layout_width="0dp" android:layout_height="32dp" android:layout_weight="1" android:background="#BB86FC" android:layout_marginEnd="2dp" />
+        <View android:layout_width="0dp" android:layout_height="20dp" android:layout_weight="1" android:background="#33BB86FC" android:layout_marginEnd="2dp" />
+        <View android:layout_width="0dp" android:layout_height="28dp" android:layout_weight="1" android:background="#BB86FC" android:layout_marginEnd="2dp" />
+        <View android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1" android:background="#BB86FC" android:layout_marginEnd="2dp" />
+        <View android:layout_width="0dp" android:layout_height="15dp" android:layout_weight="1" android:background="#33BB86FC" android:layout_marginEnd="2dp" />
+        <View android:layout_width="0dp" android:layout_height="30dp" android:layout_weight="1" android:background="#BB86FC" />
+    </LinearLayout>
+
+</LinearLayout>
