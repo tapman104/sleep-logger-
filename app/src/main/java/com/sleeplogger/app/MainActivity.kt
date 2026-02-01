@@ -64,6 +64,12 @@ import com.sleeplogger.app.repository.SleepRepository
 import com.sleeplogger.app.ui.theme.*
 import com.sleeplogger.app.utils.parseBulkInput
 import com.sleeplogger.app.viewmodel.*
+import com.sleeplogger.app.ui.components.AddEntryDialog
+import com.sleeplogger.app.ui.components.BulkInputDialog
+import com.sleeplogger.app.ui.components.SleepEntryCard
+import com.sleeplogger.app.ui.components.AboutDialog
+import com.sleeplogger.app.viewmodel.SleepViewModel
+import com.sleeplogger.app.viewmodel.SleepViewModelFactory
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.text.SimpleDateFormat
@@ -1071,7 +1077,11 @@ fun AboutModal(onDismiss: () -> Unit) {
                     context.startActivity(intent)
                 }
                 AboutLinkItem(Icons.Default.Terminal, "GitHub Repository") {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/tapman104"))
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/tapman104/SleepLogger"))
+                    context.startActivity(intent)
+                }
+                AboutLinkItem(Icons.Default.LocalCafe, "Buy Me a Coffee") {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.buymeacoffee.com/tapman104"))
                     context.startActivity(intent)
                 }
             }
@@ -1093,7 +1103,7 @@ fun AboutModal(onDismiss: () -> Unit) {
                     Spacer(modifier = Modifier.height(16.dp))
                     Button(
                         onClick = {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://buymeacoffee.com/tapman"))
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.buymeacoffee.com/tapman104"))
                             context.startActivity(intent)
                         },
                         colors = ButtonDefaults.buttonColors(containerColor = SoftBlue.copy(alpha = 0.1f)),

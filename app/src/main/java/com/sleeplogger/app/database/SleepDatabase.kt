@@ -7,7 +7,7 @@ import androidx.room.TypeConverters
 import android.content.Context
 import com.sleeplogger.app.SleepEntry
 
-@Database(entities = [SleepEntry::class], version = 2, exportSchema = false)
+@Database(entities = [SleepEntry::class], version = 1)
 @TypeConverters(Converters::class)
 abstract class SleepDatabase : RoomDatabase() {
     abstract fun sleepDao(): SleepDao
