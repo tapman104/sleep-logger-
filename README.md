@@ -159,22 +159,7 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 4. Add tests if applicable
 5. Submit a pull request
 
-## Roadmap
 
-### Phase 1: Analytics Foundation
-- [ ] Statistics screen with averages
-- [ ] Sleep duration charts
-- [ ] Date/time picker integration
-
-### Phase 2: Enhanced UX
-- [ ] Dark mode support
-- [ ] Export functionality
-- [ ] Search and filter
-
-### Phase 3: Advanced Features
-- [ ] Sleep quality tracking
-- [ ] Smart notifications
-- [ ] Health Connect integration
 
 See [Issues](https://github.com/tapman104/SleepLogger/issues) for detailed feature requests.
 
@@ -210,10 +195,6 @@ If you find this app useful, consider supporting its development:
 - 🐛 [Report Issues](https://github.com/tapman104/SleepLogger/issues)
 - 💬 [Discussions](https://github.com/tapman104/SleepLogger/discussions)
 - 👨‍💻 [Developer: tapman104](https://github.com/tapman104)
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=tapman104/SleepLogger&type=Date)](https://star-history.com/#tapman104/SleepLogger&Date)
 
 ---
 
