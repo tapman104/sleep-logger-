@@ -186,7 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you find this app useful, consider supporting its development:
 
-- ☕ [Buy Me a Coffee](https://www.buymeacoffee.com/tapman104)
+- ☕ [Buy Me a Coffee](https://www.buymeacoffee.com/tapman)
 - ⭐ Star the repository on GitHub
 
 ## 📞 Contact
